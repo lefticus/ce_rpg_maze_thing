@@ -443,7 +443,7 @@ auto print_maze(const T &maze)
           case WallType::Used:          return "*";
           case WallType::Dead:          return "🕱";
           case WallType::End:           return "😄";
-          case WallType::Monster:       return "👾";
+          case WallType::Monster:       return "👻";
           case WallType::HiddenMonster: return " ";
         }
         throw "Unhandled";
